@@ -8,7 +8,7 @@
 		<version>3.0.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.lagm.microservices.app</groupId>
+	<groupId>com.lagm.microservices.commons</groupId>
 	<artifactId>commons-microservice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>commons-microservice</name>
@@ -32,14 +32,5 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
 
 </project>
